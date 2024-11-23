@@ -52,34 +52,34 @@ cd deploy-projeto-webII
 ```
 
 2. Configuração do Backend
-   Acesse o diretório backend:
+   1.Acesse o diretório backend:
    ```bash
      cd backend
    ```
-  Instale as dependências:
-     ```bash
+  2.Instale as dependências:
+   ```bash
      npm install
    ```
-  Crie um arquivo .env com as variáveis de ambiente:
-     ```bash
+  3.Crie um arquivo .env com as variáveis de ambiente:
+   ```bash
      PORT=5000
      MONGO_URI=sua-url-do-mongodb
      JWT_SECRET=sua-chave-secreta
      STRIPE_SECRET_KEY=sua-chave-stripe
    ```
-  Inicie o servidor:
-     ```bash
+  4.Inicie o servidor:
+   ```bash
      npm start
    ```
 
 
 3.Configuração do Frontend
   1.Acesse o diretório frontend:
-    ```bash
+   ```bash
      cd ../frontend
    ```
   2.Instale as dependências:
-      ```bash
+   ```bash
      npm install
    ```
   3.Inicie o servidor:
