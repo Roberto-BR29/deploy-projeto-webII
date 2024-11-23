@@ -51,39 +51,72 @@ git clone https://github.com/Roberto-BR29/deploy-projeto-webII.git
 cd deploy-projeto-webII
 ```
 
-2. Configuração do Backend
+### 2. Configuração do Backend
+
    1.Acesse o diretório backend:
+   
    ```bash
      cd backend
    ```
+
   2.Instale as dependências:
+  
    ```bash
      npm install
    ```
+
   3.Crie um arquivo .env com as variáveis de ambiente:
+  
    ```bash
      PORT=5000
      MONGO_URI=sua-url-do-mongodb
      JWT_SECRET=sua-chave-secreta
      STRIPE_SECRET_KEY=sua-chave-stripe
    ```
+
   4.Inicie o servidor:
+  
    ```bash
      npm start
    ```
 
 
-3.Configuração do Frontend
+### 3.Configuração do Frontend
+
   1.Acesse o diretório frontend:
+  
    ```bash
      cd ../frontend
    ```
+
   2.Instale as dependências:
+  
    ```bash
      npm install
    ```
+
   3.Inicie o servidor:
+  
    ```bash
      npm start
    ```
+
 O frontend será acessível em http://localhost:3000 e o backend em http://localhost:5000.
+
+deploy-projeto-webII/
+├── backend/
+│   ├── models/         # Modelos do MongoDB
+│   ├── routes/         # Rotas da API
+│   ├── controllers/    # Lógica de controle
+│   ├── config/         # Configurações (banco de dados, Stripe)
+│   ├── middleware/     # Middlewares de autenticação
+│   └── server.js       # Configuração do servidor
+├── frontend/
+│   ├── src/
+│   │   ├── components/ # Componentes reutilizáveis
+│   │   ├── pages/      # Páginas do aplicativo
+│   │   ├── redux/      # Configuração do Redux Toolkit
+│   │   ├── App.js      # Configuração principal do React
+│   └── public/         # Arquivos estáticos
+└── README.md           # Documentação
+
