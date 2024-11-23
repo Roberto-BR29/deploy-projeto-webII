@@ -103,20 +103,5 @@ cd deploy-projeto-webII
 
 O frontend será acessível em http://localhost:3000 e o backend em http://localhost:5000.
 
-deploy-projeto-webII/
-├── backend/
-│   ├── models/         # Modelos do MongoDB
-│   ├── routes/         # Rotas da API
-│   ├── controllers/    # Lógica de controle
-│   ├── config/         # Configurações (banco de dados, Stripe)
-│   ├── middleware/     # Middlewares de autenticação
-│   └── server.js       # Configuração do servidor
-├── frontend/
-│   ├── src/
-│   │   ├── components/ # Componentes reutilizáveis
-│   │   ├── pages/      # Páginas do aplicativo
-│   │   ├── redux/      # Configuração do Redux Toolkit
-│   │   ├── App.js      # Configuração principal do React
-│   └── public/         # Arquivos estáticos
-└── README.md           # Documentação
+Desenvolvido por Roberto-BR29.
 
